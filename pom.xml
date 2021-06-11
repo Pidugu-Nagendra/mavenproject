@@ -22,7 +22,9 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+      <packaging>war</packaging>
       <version>4.11</version>
+      
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -33,40 +35,49 @@
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.1.0</version>
         </plugin>
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.0.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.8.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
+          <packaging>war</packaging>
           <version>2.22.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.0.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
+          <packaging>war</packaging>
           <version>2.5.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
+          <packaging>war</packaging>
           <version>2.8.2</version>
         </plugin>
         <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.7.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
+          <packaging>war</packaging>
           <version>3.0.0</version>
         </plugin>
       </plugins>
